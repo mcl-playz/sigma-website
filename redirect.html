@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifying Link...</title>
+</head>
+<body>
+    <style>
+        * {
+            text-align: center;
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        .center {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .bottom {
+            position: absolute;
+            left: 50%;
+            top: 90%;
+            transform: translate(-50%, -90%);
+        }
+    </style>
+
+    <h1 class="center">Verifying Link...</h1>
+    <p class="bottom">Powered by: Advanced Threat Protection</p>
+
+    <script>
+        function redirect(){
+            setTimeout(() => {
+                document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+            }, 3000)
+        }
+        redirect();
+    </script>
+</body>
+</html>
